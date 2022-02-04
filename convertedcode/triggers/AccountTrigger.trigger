@@ -6,7 +6,7 @@
  * @last modified by  : Rakesh Ramaswamy
 **/
 trigger AccountTrigger on Account (before insert, before update) {
-    if(trigger.isInsert) {
+    if(trigger.isInsert){
         // code for before insert operations to be performed...
     }
     else if(trigger.isUpdate) {
